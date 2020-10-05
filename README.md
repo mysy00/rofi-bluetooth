@@ -9,12 +9,12 @@
 ## Installation
 
 1. Install dependencies:
-  - [rofi](https://github.com/davatorium/rofi)
-  - bluetoothctl (provided by `bluez-utils` in Arch)
-1. `git clone https://github.com/Mysy00/rofi-bluetooth.git`
-1. `cd rofi-bluetooth`
-1. `make install`
-1. Make sure ~/.local/bin directory is in your `$PATH`.
+   - [rofi](https://github.com/davatorium/rofi)
+   - bluetoothctl (provided by `bluez-utils` in Arch)
+2. `git clone https://github.com/Mysy00/rofi-bluetooth.git`
+3. `cd rofi-bluetooth`
+4. `make install`
+5. Make sure ~/.local/bin directory is in your `$PATH`.
 
 ### Polybar configuration
 
