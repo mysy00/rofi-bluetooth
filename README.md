@@ -6,6 +6,10 @@
 
 </div>
 
+## How dos this fork differ
+It almost doesn't differ. I forked it to make it work better with my polybar config (icon for prefix and on/off/dev name to indicate BT status).
+Also, with the makefile it's easier to get the script working when using a script to set up your system.
+
 ## Installation
 
 1. Install dependencies:
@@ -26,6 +30,7 @@ interval = 1
 click-left = rofi-bluetooth &
 
 format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
 
 ```
 
